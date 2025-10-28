@@ -1,0 +1,17 @@
+# Core
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+google-generativeai
+
+# Team A (Backend)
+pdfplumber
+sentence-transformers
+faiss-cpu
+langchain
+
+# Team B (Frontend - good to have for testing)
+streamlit
+requests
+gtts

@@ -1,0 +1,26 @@
+# Python Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables (contains your secret API key)
+.env
+backend/.env
+
+# OS-specific files
+.DS_Store
+
+# --- HACKATHON PROJECT IGNORES ---
+
+# 1. Ignore the giant PDF folder
+docs/pdfs/
+
+# 2. Ignore the "golden files" we will create and share manually
+backend/faiss_index.idx
+backend/metadata.pkl
+
+# 3. Ignore our local test scripts
+test_team_a.py
+test_client.py
